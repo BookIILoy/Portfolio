@@ -12,7 +12,6 @@ const projectsData = [
     image: "/image/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/BookIILoy/PracticeProject",
-    previewUrl: "/",
   },
   {
     id: 2,
@@ -21,7 +20,6 @@ const projectsData = [
     image: "/image/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
   },
   {
     id: 3,
@@ -30,34 +28,38 @@ const projectsData = [
     image: "/image/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/BookIILoy/Meta-Front-End-Capstone-Project",
-    previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Twitter Toxic Tweets Sentiment",
+    description: "Text Analysis Project",
     image: "/image/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web", "ETC"],
+    gitUrl: "https://github.com/BookIILoy/TextProj",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "IBM Data Science Project",
+    description: "IMB Data Science Coursera Project",
     image: "/image/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "ETC"],
+    gitUrl: "https://github.com/BookIILoy/IBM-Data-Science-Project",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Pizza Renger Website",
+    description: "Database project about callcenter website",
     image: "/image/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/BookIILoy/Database-Project",
+  },
+  {
+    id: 7,
+    title: "Data Science Website with Streamlit",
+    description: "Coursera Project",
+    image: "/image/projects/7.png",
+    tag: ["All", "ETC"],
+    gitUrl: "https://github.com/BookIILoy/Build-a-Data-Science-Web-App-with-Streamlit-and-Python",
   },
 ];
 
@@ -116,7 +118,6 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}

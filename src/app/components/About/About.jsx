@@ -65,7 +65,7 @@ const AboutSection = () => {
             I am a FullStack Developer. I have experience
             working on projects with JavaScript, React, Next, Node.js, Express, MySQL,
             MongoDB, Django, GoLang, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set.
+            looking to expand my knowledge and skill set. Currently internship at Western Digital Prachinburi.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

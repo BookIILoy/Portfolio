@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutSection from "./components/About/About";
 import AchievementsSection from "./components/AchievenebtsSection";
 import ProjectsSection from "./components/Project/ProjectsSection";
+import ContactSection from "./components/Contact/ContactSection";
+import ContactLink from "./components/Contact/ContactLink";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black">
@@ -13,6 +15,8 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
+        <ContactSection />
+        <ContactLink />
       </div>
     </main>
   );

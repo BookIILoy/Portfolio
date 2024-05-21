@@ -17,7 +17,7 @@ const navLinks = [
   },
   {
     title: "Contact",
-    path: "#",
+    path: "#contact",
   },
   {
     title: <Image 
@@ -25,6 +25,7 @@ const navLinks = [
             alt='github'
             width={35}
             height={35}
+            className=" hover:scale-125 duration-500 ease-in-out"
         />,
   path: "https://github.com/BookIILoy",
   },
@@ -34,6 +35,7 @@ const navLinks = [
             alt='linkedin'
             width={35}
             height={35}
+            className=" hover:scale-125 duration-500 ease-in-out"
         />,
   path: "https://www.linkedin.com/in/tukdanai-urumporn-3105a02a2/",
   },
