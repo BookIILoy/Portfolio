@@ -5,9 +5,9 @@ import AboutSection from "./components/About/About";
 import AchievementsSection from "./components/AchievenebtsSection";
 import ProjectsSection from "./components/Project/ProjectsSection";
 import ContactSection from "./components/Contact/ContactSection";
-import ContactLink from "./components/Contact/ContactLink";
 import { Element } from 'react-scroll';
 import VisibilitySensor from "./components/Animation/VisibilitySensor";
+import HorNavbar from "./components/Navbar/HorNavbar";
 
 export default function Home() {
   return (
@@ -40,6 +40,7 @@ export default function Home() {
         </Element>
         </VisibilitySensor>
       </div>
+        <HorNavbar />
     </main>
   );
 }
